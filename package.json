@@ -5,5 +5,6 @@
     "name": "Jean-Denis VIDOT",
     "email": "contact@jdevelop.io"
   },
-  "private": false
+  "private": false,
+  "license": "MIT"
 }
