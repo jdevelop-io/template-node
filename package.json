@@ -9,7 +9,8 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "pnpm prebuild && tsc"
+    "build": "pnpm prebuild && tsc",
+    "build:watch": "pnpm build --watch"
   },
   "devDependencies": {
     "rimraf": "^6.0.1",
