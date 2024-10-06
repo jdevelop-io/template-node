@@ -21,7 +21,8 @@
     "test:coverage:watch": "jest --coverage --watch",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "lint:check": "eslint ."
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.0",
