@@ -12,6 +12,7 @@
     "pnpm": ">=9.12.0"
   },
   "scripts": {
+    "prepare": "husky",
     "prebuild": "rimraf dist",
     "build": "pnpm prebuild && tsc",
     "build:watch": "pnpm build --watch",
