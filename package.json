@@ -16,7 +16,7 @@
     "build": "pnpm prebuild && tsc",
     "build:watch": "pnpm build --watch",
     "test": "jest",
-    "test:watch": "pnpm test -- --watch",
+    "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:coverage:watch": "jest --coverage --watch"
   },
