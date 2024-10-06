@@ -14,7 +14,8 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "pnpm prebuild && tsc",
-    "build:watch": "pnpm build --watch"
+    "build:watch": "pnpm build --watch",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.13",
