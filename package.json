@@ -8,7 +8,8 @@
   "private": false,
   "license": "MIT",
   "scripts": {
-    "prebuild": "rimraf dist"
+    "prebuild": "rimraf dist",
+    "build": "pnpm prebuild && tsc"
   },
   "devDependencies": {
     "rimraf": "^6.0.1",
