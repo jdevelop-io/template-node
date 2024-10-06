@@ -17,7 +17,7 @@
     "build:watch": "pnpm build --watch",
     "test": "jest",
     "test:watch": "pnpm test -- --watch",
-    "test:coverage": "pnpm test -- --coverage",
+    "test:coverage": "jest --coverage",
     "test:coverage:watch": "jest --coverage --watch"
   },
   "devDependencies": {
