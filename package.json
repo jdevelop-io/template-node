@@ -16,7 +16,8 @@
     "build": "pnpm prebuild && tsc",
     "build:watch": "pnpm build --watch",
     "test": "jest",
-    "test:watch": "pnpm test -- --watch"
+    "test:watch": "pnpm test -- --watch",
+    "test:coverage": "pnpm test -- --coverage"
   },
   "devDependencies": {
     "@types/jest": "^29.5.13",
